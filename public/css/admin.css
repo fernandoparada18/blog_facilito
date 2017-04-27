@@ -1,0 +1,23 @@
+.admin-body {
+	margin-left: 7%;
+	margin-right: 7%;
+	background-image: url("../images/fondo.jpg");
+}
+
+.admin-logo-nav{
+	margin: 2px;
+	border-radius:5px;
+	width: 45px; height: 45px;
+}
+
+.section-admin{
+
+}
+
+.admin-footer{
+
+}
+
+.form-delete {
+	display: inline-block;
+}
