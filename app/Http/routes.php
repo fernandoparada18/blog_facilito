@@ -35,7 +35,7 @@ Route::get('articles/{slug}', [
 
 //RUTAS DEL PANEL DE ADMINISTRACION
 
-Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function(){
+Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'admin']], function(){
 
     Route::get('/', ['as' => 'admin.index', function () {
         return view('admin.index');
