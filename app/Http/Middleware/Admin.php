@@ -36,7 +36,7 @@ class Admin
         }
         else
         {
-          dd('No puedes acceder, eres de tipo miembro');
+          abort(401);
         }
     }
 }
