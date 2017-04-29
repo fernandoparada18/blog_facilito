@@ -1,7 +1,8 @@
 @extends('front.template.main')
 
 @section('content')
-    <h3 class="title-front left">Ultimos Articulos</h3>
+    <h3 class="title-front left">{{ trans('app.title_last_articles') }}</h3>
+    <!--<h2>{{ trans('app.test', ['name' => 'Fernando', 'company' => 'Blog Facilito']) }}</h2>-->
     <div class="row">
       <div class="col-md-9">
         <div class="row">
